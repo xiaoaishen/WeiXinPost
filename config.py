@@ -5,11 +5,11 @@ app_id = "wx0b2c8acc885edffe"
 app_secret = "01eec7d3dd6fdbde278268fe5eca2691"
 # 模板消息id
 # 每日消息
-template_id1 = "ktRqH2W55Jyn9ERxgNn_9vu4M4T8b9XXMYj7GZ8g9Nc"
+template_id1 = "NAGjy-_bpvJqJ5rs_M9RzPVZ1j226IYBx0mmbP7Goes"
 # 课程消息,上课提醒
-template_id2 = "loe1yHWr************************************"
+template_id2 = "qCrJRnxMnhnE_wJKvgBrV-E8_tNwfxD8bvvJaRCDvsI"
 # 晚安心语
-template_id3 = "-fun9-2************************************"
+template_id3 = "SPQq206rMQFpyX7XzS4gClAw_DV9ubEGjxzDd8SVEzY"
 # 接收公众号消息的微信号
 # 这是openid
 user = ["o26Zr6qqAdZxKtINVcpJBfCAmZ30"]
@@ -27,7 +27,7 @@ love_date = "2001-12-1"
 good_Night_Key = "4082bfd944c******************"
 # -------------------------------------------------------------------------
 # 设置学期第一周开始日期
-year = 2026
+year = 2025
 month = 9
 day = 1
 # 每日推送时间
