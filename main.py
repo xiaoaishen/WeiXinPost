@@ -53,6 +53,7 @@ def get_Today_Week():
     y = config.year
     m = config.month
     d = config.day
+    print(y,m,d)
     startWeek = datetime(y, m, d)
     today = datetime.today()
     d_days = today - startWeek
@@ -62,10 +63,12 @@ def get_Today_Week():
 
 # 获取本周课程
 def get_Week_Classes(w):
+    print(w)
     if w is not None:
         week_Class = config.classes.get(w)
     else:
         week = get_Today_Week()
+        print(week)
         week_Class = config.classes.get(week)
     return week_Class
 
@@ -77,6 +80,7 @@ def get_Today_Class():
     day = localtime().tm_mday
     today = datetime.date(datetime(year=year, month=month, day=day))
     todayClasses = get_Week_Classes(None)[today.weekday()]
+    print(todayClasses)
     return todayClasses
 
 
