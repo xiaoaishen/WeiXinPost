@@ -5,7 +5,7 @@ app_id = "wx0b2c8acc885edffe"
 app_secret = "01eec7d3dd6fdbde278268fe5eca2691"
 # 模板消息id
 # 每日消息
-template_id1 = "NAGjy-_bpvJqJ5rs_M9RzPVZ1j226IYBx0mmbP7Goes"
+template_id1 = "RFrHkipxqmYIt9-MvLQbtl6g0e_4eji7Gx5SLgMr5Uc"
 # 课程消息,上课提醒
 template_id2 = "qCrJRnxMnhnE_wJKvgBrV-E8_tNwfxD8bvvJaRCDvsI"
 # 晚安心语
@@ -37,7 +37,7 @@ time_table = ["07:40:00", "09:40:00", "13:40:00", "15:40:00", "18:40:00"]
 # 课程时间
 course_Time = ["8:00--9:45", "10:00--11:45", "14:00--15:45", "16:00--17:45", "19:00--20:45"]
 # 晚安心语及第二天课程推送时间
-good_Night_Time = "22:55:00"
+good_Night_Time = "16:46:00"
 # 课程表 "1"代表第一周，依次类推，根据个人实际课表添加，有几周就添加几周,
 # 每一行代表一天, 例如  ['', '编译原理', '', '数据库原理及应用', '数据分析原理', '']  代表周一
 classes = \
