@@ -258,7 +258,7 @@ def send_Good_Night(to_user, access_token):
                       'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
     }
     # 获取天行数据晚安心语
-    txUrl = "http://api.tianapi.com/wanan/index"
+    txUrl = "https://apis.tianapi.com/wanan/index"
     key = config.good_Night_Key
     pre_data = {"key": key}
     # param = json.dumps((pre_data))
